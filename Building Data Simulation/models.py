@@ -64,7 +64,7 @@ class BuildingSimulation:
         self.weather_api_key = None
         self.last_weather_update = 0
         self.weather_data = None
-        self.weather_update_interval = 600
+        self.weather_update_interval = 100
         self.thread = None
         self.appliances = self._initialize_appliances()
         self._initialize_files()
